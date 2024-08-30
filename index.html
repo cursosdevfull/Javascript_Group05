@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CursosDev - Javascript</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <h1>Curso de Javascript</h1>
     <div>
       <img src="https://api.cursos-dev.com/images/javascript.jpg" alt="" />
     </div>
-    <p></p>
+    <p id="currentDate"></p>
 
     <form action="register.php">
       <input type="text" placeholder="Nombre" /><br />
@@ -22,7 +23,7 @@
 
     <script>
       const currentDate = new Date();
-      const p = document.getElementsByTagName("p")[0];
+      const p = document.getElementById("currentDate");
       p.innerHTML = currentDate;
     </script>
   </body>
