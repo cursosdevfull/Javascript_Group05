@@ -11,11 +11,11 @@
     <div>
       <img src="https://api.cursos-dev.com/images/javascript.jpg" alt="" />
     </div>
-    <p></p>
+    <p id="currentDate"></p>
 
     <script>
       const currentDate = new Date();
-      const p = document.getElementsByTagName("p")[0];
+      const p = document.getElementById("currentDate");
       p.innerHTML = currentDate;
     </script>
   </body>
