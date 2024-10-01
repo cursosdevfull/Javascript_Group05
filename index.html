@@ -4,10 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="assets/scripts/app.js" type="module" defer></script>
-    <link rel="stylesheet" href="assets/styles/app.css" />
+    <!-- <script src="assets/scripts/app.js" type="module" defer></script> -->
+    <!--     <link rel="stylesheet" href="assets/styles/app.css" /> -->
   </head>
   <body>
     <div id="app"></div>
+    <script>
+      const app = document.getElementById("app");
+      const h1 = document.createElement("h1");
+      h1.textContent = new Date().toISOString();
+      app.appendChild(h1);
+    </script>
   </body>
 </html>

@@ -1,3 +1,5 @@
+import "../styles/app.css";
+
 import Shop from "./shop.js";
 
 export class App {

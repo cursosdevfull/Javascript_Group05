@@ -12,7 +12,7 @@ export class ShoppingCart extends Component {
     const elementTotal = this.createRootElement("section", "cart");
     elementTotal.innerHTML = `
           <h2>Total: 0</h2>
-          <button>Order now</button>
+          <button>Buy now</button>
       `;
 
     this.totalOutput = elementTotal.querySelector("h2");
