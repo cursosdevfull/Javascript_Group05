@@ -7,7 +7,6 @@ export default class Shop {
   }
 
   render() {
-    console.log("render shop");
     this.cart = new ShoppingCart("app");
     new ProductList("app");
   }

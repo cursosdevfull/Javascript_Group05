@@ -4,9 +4,7 @@ export class Component {
     if (isRendered) this.render();
   }
 
-  render() {
-    console.log("Calling method render");
-  }
+  render() {}
 
   createRootElement(tag, cssClass, attributes) {
     const root = document.createElement(tag);

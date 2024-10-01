@@ -5,12 +5,10 @@ export class ProductItem extends Component {
   constructor(product, tagRenderId) {
     super(tagRenderId, false);
     this.product = product;
-    console.log("show product", this.product);
     this.render();
   }
 
   addToCart() {
-    //console.log("Product added to cart", this.product);
     App.addProductToCart(this.product);
   }
 

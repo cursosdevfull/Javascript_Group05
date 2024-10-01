@@ -5,7 +5,6 @@ export class ShoppingCart extends Component {
 
   constructor(tagRenderId) {
     super(tagRenderId);
-    console.log("ShoppingCart constructor");
   }
 
   render() {
