@@ -1,0 +1,20 @@
+{
+  "name": "javascript_group05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cursosdevfull/Javascript_Group05.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cursosdevfull/Javascript_Group05/issues"
+  },
+  "homepage": "https://github.com/cursosdevfull/Javascript_Group05#readme"
+}
